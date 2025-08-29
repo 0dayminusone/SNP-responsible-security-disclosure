@@ -32,7 +32,8 @@ I visited the webserver and found that it contained malicious documents that did
 
 ### Directory Enumeration
 
-I then cross-referenced the webserver type using guides like [this](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server), I then found that this webserver supported hidden directories which server maintainers could create & would automatically be assigned to hidden unix directories (which start with .)
+I then cross-referenced the webserver type using guides like [this](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server), I then found that this webserver supported hidden directories which server maintainers could create & would automatically be assigned to hidden unix directories (which start with .).
+
 I created a bash script to test common file paths that are often overlooked during file server configuration. Based on my personal experience with webservers, I knew certain directories are frequently left with default permissions.
 The script simply enumerated over common hidden directories, and stored successful 200 codes with valid directories structures in a .txt file
 
