@@ -48,6 +48,7 @@ Upon discovering the exposed SSH keys, I immediately recognized the serious secu
 ## Resolution Status
 
 This vulnerability was disclosed via email & was responsibly disclosed to ensure proper remediation
+
 As of August 2025, the `/.ssh/` directory redirects to `/` and doesn't seem accessible to the public internet anymore
 
 ---
