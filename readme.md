@@ -28,7 +28,7 @@ The whois lookup returned an error which showed the domain didn't have a whois s
 
 I performed an nmap scan on the domain to identify exposed services. The scan revealed a standard file server running a web interface on the HTTPS port.
 
-I visited the webserver and found that it contained misc documents that did not appear to contain sensitive information
+I visited the webserver and found that it contained malicious documents that did not appear to contain sensitive information
 
 ### Directory Enumeration
 
