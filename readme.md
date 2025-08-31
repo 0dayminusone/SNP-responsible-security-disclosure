@@ -53,5 +53,5 @@ As of August 2025, the `/.ssh/` directory redirects to `/` and doesn't seem acce
 
 ---
 
-- Where I have redacted information, I understand that most of this information is trivially easy to lookup in historical  databases and public records, however it will still remain redacted and **will NOT** be supplied on request.
+- Where I have redacted information, I understand that most of this information is trivially easy to lookup in historical  databases and public records.
 - *No malicious actions were taken by me, all findings were immediately reported to appropriate parties for remediation.*
